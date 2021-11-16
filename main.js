@@ -39,8 +39,7 @@ if(isTrue && allChecked) {
 } else {
     modal.classList.add("modal-active")
     modalInfo.textContent = "Niestety przegrywasz..."
-}
-
+    }
 }
 
 const closeModal = () => {
